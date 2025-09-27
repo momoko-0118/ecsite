@@ -27,9 +27,15 @@
 			<result name="success">buyItem.jsp</result>
 			<result name="error">login.jsp</result>
 		</action>
-		<!-- 
+		
 		<action name="UserCreateAction" 
 		class="com.diworksdev.ecsite.action.UserCreateAction"
+		method="execute">
+			<result name="success">userCreate.jsp</result>
+		</action>
+		
+		<action name="UserCreateConfirmAction" 
+		class="com.diworksdev.ecsite.action.UserCreateConfirmAction"
 		method="execute">
 			<result name="success">userCreateConfirm.jsp</result>
 			<result name="error">userCreate.jsp</result>
@@ -40,7 +46,7 @@
 		method="execute">
 			<result name="success">userCreateComplete.jsp</result>
 		</action>
-		
+		<!-- 
 		<action name="BuyItemAction" 
 		class="com.diworksdev.ecsite.action.BuyItemAction"
 		method="execute">
