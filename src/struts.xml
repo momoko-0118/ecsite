@@ -46,7 +46,7 @@
 		method="execute">
 			<result name="success">userCreateComplete.jsp</result>
 		</action>
-		<!-- 
+		
 		<action name="BuyItemAction" 
 		class="com.diworksdev.ecsite.action.BuyItemAction"
 		method="execute">
@@ -60,7 +60,7 @@
 			<result name="success">buyItemComplete.jsp</result>
 			<result name="back">buyItem.jsp</result>
 		</action>
-		
+		<!-- 
 		<action name="MyPageAction" 
 		class="com.diworksdev.ecsite.action.MyPageAction"
 		method="execute">
